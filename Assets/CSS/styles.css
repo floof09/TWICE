@@ -1,0 +1,78 @@
+/* Body background */
+body {
+    background-color: #fccfa6; /* Light yellow */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Container styling */
+  .container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    transition: all 0.3s ease; /* Smoother transition for container */
+  }
+  
+  /* Heading styling */
+  h2 {
+    color: #fe97a4; /* Pink */
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease; /* Smoother transition for heading */
+  }
+  
+  /* Form input styling */
+  .form-group label {
+    color: #fe7ba3; /* Lighter pink */
+    font-size: 16px;
+    margin-bottom: 8px; /* Add space below label */
+    transition: all 0.3s ease; /* Smoother transition for label */
+  }
+  
+  .form-control {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #fe7ba3; /* Lighter pink */
+    font-size: 16px;
+    margin-bottom: 20px; /* Add space below input */
+    transition: all 0.3s ease; /* Smoother transition for input */
+  }
+  
+  /* Form button styling */
+  .btn-primary {
+    background-color: #ff5fa2; /* Dark pink */
+    border-color: #ff5fa2; /* Dark pink */
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 20px; /* Add space above button */
+    transition: all 0.3s ease; /* Smoother transition for button */
+  }
+  
+  .btn-primary:hover {
+    background-color: #fdb3a5; /* Light pink */
+    border-color: #fdb3a5; /* Light pink */
+  }
+  
+  /* Output message styling */
+  #output {
+    margin-top: 20px;
+    color: #333333;
+    text-align: center;
+    opacity: 0; /* Initially hide output */
+    animation: fadeIn 0.5s ease forwards; /* Fade in animation for output */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

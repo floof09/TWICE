@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twice Merch Store</title> <!-- Updated title -->
+  <link rel="stylesheet" href="Assets/CSS/styles.css">
+  <!-- Include the chosen font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap">
+</head>
+<body>
+  <div class="container mt-5">
+    <h2>Choose Your Twice Bias</h2>
+    <form id="biasForm">
+      <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input type="text" class="form-control" id="firstName" required>
+      </div>
+      <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input type="text" class="form-control" id="lastName" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="bias">Select Your Bias</label>
+        <select class="form-control" id="bias" required>
+          <option value="">Select Bias</option>
+          <option value="Nayeon">Nayeon</option>
+          <option value="Jeongyeon">Jeongyeon</option>
+          <option value="Momo">Momo</option>
+          <option value="Sana">Sana</option>
+          <option value="Jihyo">Jihyo</option>
+          <option value="Mina">Mina</option>
+          <option value="Dahyun">Dahyun</option>
+          <option value="Chaeyoung">Chaeyoung</option>
+          <option value="Tzuyu">Tzuyu</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="album">Select Your Favorite Twice Album</label>
+        <select class="form-control" id="album" required>
+          <option value="">Select Album</option>
+          <option value="The Story Begins">The Story Begins</option>
+          <option value="Page Two">Page Two</option>
+          <option value="Twicecoaster: Lane 1">Twicecoaster: Lane 1</option>
+          <option value="Signal">Signal</option>
+          <option value="Twicetagram">Twicetagram</option>
+          <option value="Merry & Happy">Merry & Happy</option>
+          <option value="What Is Love?">What Is Love?</option>
+          <option value="Summer Nights">Summer Nights</option>
+          <option value="Yes or Yes">Yes or Yes</option>
+          <option value="Fancy You">Fancy You</option>
+          <option value="Feel Special">Feel Special</option>
+          <option value="More & More">More & More</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <div class="mt-3" id="output"></div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="Assets/JS/script.js"></script>
+</body>
+</html>
